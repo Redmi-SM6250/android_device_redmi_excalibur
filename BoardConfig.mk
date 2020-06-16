@@ -16,6 +16,4 @@ TARGET_OTA_ASSERT_DEVICE := excalibur
 TARGET_HAS_HDR_DISPLAY := false
 
 # Kernel
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := vendor/excalibur-inline_defconfig
-endif
+TARGET_KERNEL_CONFIG := vendor/excalibur_defconfig
